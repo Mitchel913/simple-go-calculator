@@ -25,7 +25,7 @@ func main() {
  case "%":  
   output = number1 % number2  
  default:  
-  fmt.Println("Invalid Operation")  
+  fmt.Println("Invalid Operation, Try Again")  
  }  
  fmt.Printf("%d %s %d = %d", number1, operator, number2, output)  
 }  
